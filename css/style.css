@@ -60,13 +60,14 @@ body {
 
     /* cores */
     background-color: var(--lilas_medio);
-    color: var(--base);
+    color: var(--base_media);
 
     /* texto do btn */
 	text-decoration: none;
 	font-size: 13pt;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
+    font-weight: bold;
   
 
     /* alinhamento */
