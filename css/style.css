@@ -1,0 +1,90 @@
+:root {
+
+	/* cores */
+	--base: #f0eae8;
+	--roxo_escuro: #5b1474;
+	--roxo_medio: #9248a6;
+	--roxo_claro: #ba8fc6;
+	--laranja_escuro: #ff7c32;
+	--laranja_medio: #fda777;
+
+	--largura-paragrafo: 50vw;
+}
+
+/* pagina toda */
+body {
+
+	background: var(--base);
+	margin: 0px;
+	padding: 0px;
+}
+
+/* containers */
+.container {
+
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+
+}
+
+/* menu de navegação */
+.menu {
+
+    width: 100%;
+    background-color: var(--laranja_escuro);
+    height: 12vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+
+}
+
+/* imagem da logo do menu */
+.logo_menu img {
+
+    width: 200px; 
+    height: auto; 
+
+}
+
+/* botões de navegação do menu */
+.botoes_menu {
+
+    /* tamanho e formato */
+    margin-top: 3.5vh;
+    width: 5px; 
+    height: 40px; 
+    border-radius: 10px;
+
+    /* cores */
+    background-color: var(--roxo_escuro);
+    color: var(--base);
+
+    /* texto do btn */
+	text-decoration: none;
+	font-size: 13pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+  
+
+    /* alinhamento */
+    min-width: 10vw;
+    width: fit-content;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+    /* espaçamento entre os btn */
+    margin-left: 9px;
+
+    /* transição */
+	transition: ease-in-out .1s;
+
+}
+
+/* botões de navegação do menu: animação */
+.botoes_menu:hover {
+	scale: 1.075;
+}
