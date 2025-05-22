@@ -1,12 +1,12 @@
 :root {
 
 	/* cores */
-	--base: #f0eae8;
-	--roxo_escuro: #5b1474;
-	--roxo_medio: #9248a6;
-	--roxo_claro: #ba8fc6;
-	--laranja_escuro: #ff7c32;
-	--laranja_medio: #fda777;
+    --lilas_escuro: #272744;
+	--lilas_medio: #494d7e;
+	--lilas_claro: #8b6d9c;
+    --rosa_claro: #c69fa5;
+	--base_media: #f2d3ab;
+	--base_claro: #fbf5ef;
 
 	--largura-paragrafo: 50vw;
 }
@@ -14,7 +14,7 @@
 /* pagina toda */
 body {
 
-	background: var(--base);
+	background: var(--base_claro);
 	margin: 0px;
 	padding: 0px;
 }
@@ -32,7 +32,7 @@ body {
 .menu {
 
     width: 100%;
-    background-color: var(--laranja_escuro);
+    background-color: var(--lilas_claro);
     height: 12vh;
     
     display: flex;
@@ -59,7 +59,7 @@ body {
     border-radius: 10px;
 
     /* cores */
-    background-color: var(--roxo_escuro);
+    background-color: var(--lilas_medio);
     color: var(--base);
 
     /* texto do btn */
