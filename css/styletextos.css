@@ -1,0 +1,71 @@
+:root {
+
+	/* cores */
+    --lilas_escuro: #272744;
+	--lilas_medio: #494d7e;
+	--lilas_claro: #8b6d9c;
+    --rosa_claro: #c69fa5;
+	--base_media: #f2d3ab;
+	--base_claro: #fbf5ef;
+
+	--largura-paragrafo: 50vw;
+
+}
+
+/* titulos */
+.titulo {
+
+	font-size: 48pt;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 40vw;
+	text-align: center;
+	
+	color: var(--lilas_escuro);
+
+	margin-top: 15vh;
+	margin-bottom: 1vh;
+
+}
+
+/* subtitulo */
+.subtitulo {
+
+	color: var(--lilas_claro);
+	font-size: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+
+	width: 60vw;
+
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	
+}
+
+/* paragrafos: médios */
+.paragrafo_tam_m {
+
+	color: var(--lilas_escuro);
+	font-size: 18pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	width: 40vw;
+
+	margin-bottom: 5vh;
+
+}
+
+/* paragrafos: pequenos */
+.paragrafo_tam_p {
+
+	color: var(--lilas_escuro);
+	font-size: 14pt;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	width: 30vw;
+
+	margin-bottom: 10vh;
+	margin-right: 80%;
+	padding-top: 30;
+
+}
