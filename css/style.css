@@ -18,7 +18,7 @@ body {
 	background: var(--base_media);
 	margin: 0px;
 	padding: 0px;
-
+    overflow-x: hidden;
 }
 
 /* containers */
@@ -28,7 +28,6 @@ body {
     width: 100%;
     height: fit-content;
     min-height: 100vh;
-
 }
 
 .base_paginas {
