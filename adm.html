@@ -7,22 +7,22 @@
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styletextos.css">
     <link rel="stylesheet" href="css/stylefooter.css">
-    <link rel="stylesheet" href="css/styleform.css">
+    <link rel="stylesheet" href="css/styleinicio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 	<title>ONG Bigodinhos</title>
-    
+
 </head>
 
 <body>
 
     <!--container de: Menu de Navegação-->
-    <container class = "container" id = "container_menu_login">
+    <container class = "container" id = "container_menu_inicio">
 
         <div class = "menu">
 
             <div class = "logo_menu">
 
-                <img src="imagens/elementos site (3) (1).png" alt="logo"> 
+                <img src = "imagens/elementos site (3) (1).png" alt="logo"> 
     
             </div>
 
@@ -40,54 +40,32 @@
 
         </div>
 
+
     </container>
 
     <!--container de: Conteúdo da Página-->
     <container>
 
-        <div class = "base_paginas">
+    <div class="gatinho-div">
+    <img src="imagens/gatomenu.jpg" alt="Gatinho acenando" class="gatinho-img">
+    <img src="imagens/sobreong1.png" alt="Gatinho acenando" class="gatinho-img">
+    <img src="imagens/sobreong2.png" alt="Gatinho acenando" class="gatinho-img">
+    <img src="imagens/sobreong3.png" alt="Gatinho acenando" class="gatinho-img">
+    </div>
+
+        <div class="base_paginas">
 
             <h1 class="titulo">
                 Organização Bigodinhos
-                </h1>
+            </h1>
 
-                <h1 class="subtitulo">
-                Cadastre-se para entrar em contato com nossos cuidadores.
-                </h1>
+            <h1 class="subtitulo">
+                Página do Administrador
+            </h1>
 
-            <div class="login-container">
-
-                <form id ="formCadastro">
-
-                    <label for="nome" id="lbl_text">Nome:</label>
-                    <input type="text" id="in_name" placeholder="digite seu nome:" required/>
-        
-                    <label for="email" id="lbl_text">Email:</label>
-                    <input type="email" id="in_mail" placeholder="digite seu email:" required/>
-
-                    <label for="senha" id="lbl_text">Senha:</label>
-                    <input type="password" id="senha" placeholder="digite sua senha:" required>
-
-                    <label for="telefone" id="lbl_text">Telefone:</label>
-                    <input type="tel" id="telefone" placeholder="digite seu telefone:" required>
-
-                    <label for="cep" id="lbl_text">CEP:</label>
-                    <input type="text" id="cep" placeholder="digite seu CEP:" required onblur="buscarEndereco()">
-
-                    <label for="endereco" id="lbl_text">Endereço:</label>
-                    <input type="text" id="endereco" placeholder="endereço (preenchido automaticamente)" readonly>
-
-                    <label for="numero" id="lbl_text">Número do Endereço:</label>
-                    <input type="text" id="numero" placeholder="número:" required>
-        
-                    <input type="submit" class="send-input-button" value="Cadastrar">
-
-                </form> 
-                
-                <script src="scripts/cep.js"></script>
-                <script src="scripts/cadastro.js"></script>
-
-            </div>
+            <p class = "paragrafo_tam_m">
+                    Cadastro de Gatos
+            </p>
 
         </div>
 
@@ -96,7 +74,7 @@
     <!--container de: Footer-->
     <container>
 
-        <footer class = "footer">
+    <footer class = "footer">
 
         <div class = "footer-container">
 
