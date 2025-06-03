@@ -61,3 +61,24 @@
 span {
     z-index: 1;
 }
+
+.box_informacoes {
+
+    background-color: var(--rosa_claro); /* Rosa claro */
+    border-radius: 12px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 8vh; 
+    max-width: 60%; /* Largura máxima */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--lilas_medio);
+    text-align: center;
+
+    /* Flexbox para centralização vertical */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; /* Altura mínima */
+
+}

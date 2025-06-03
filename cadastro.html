@@ -49,32 +49,43 @@
 
             <h1 class="titulo">
                 Organização Bigodinhos
-            </h1>
+                </h1>
 
-            <h1 class="subtitulo">
-                Entre para entrar em contato com nossos cuidadores.
-            </h1>
+                <h1 class="subtitulo">
+                Cadastre-se para entrar em contato com nossos cuidadores.
+                </h1>
 
             <div class="login-container">
 
                 <form action="join.html">
+
                     <label for="nome" id="lbl_text">Nome:</label>
-                    <input type="text" id="in_name" placeholder="Digite seu nome" required/>
-                    
+                    <input type="text" id="in_name" placeholder="digite seu nome:" required/>
+        
+                    <label for="email" id="lbl_text">Email:</label>
+                    <input type="email" id="in_mail" placeholder="digite seu email:" required/>
+
                     <label for="senha" id="lbl_text">Senha:</label>
                     <input type="password" id="senha" placeholder="digite sua senha:" required>
-        
-                    <input type="submit" class="send-input-button" value="Entrar">
 
-                    <button
-                        type="button" 
-                        class="send-input-button custom-spacing"  
-                        onclick="window.location.href='cadastro.html'">
-                        Não Possuo Cadastro
-                    </button>
-                    
-                </form>   
-            
+                    <label for="telefone" id="lbl_text">Telefone:</label>
+                    <input type="tel" id="telefone" placeholder="digite seu telefone:" required>
+
+                    <label for="cep" id="lbl_text">CEP:</label>
+                    <input type="text" id="cep" placeholder="digite seu CEP:" required onblur="buscarEndereco()">
+
+                    <label for="endereco" id="lbl_text">Endereço:</label>
+                    <input type="text" id="endereco" placeholder="endereço (preenchido automaticamente)" readonly>
+
+                    <label for="numero" id="lbl_text">Número do Endereço:</label>
+                    <input type="text" id="numero" placeholder="número:" required>
+        
+                    <input type="submit" class="send-input-button" value="Cadastrar">
+
+                </form> 
+                
+                <script src="scripts/cep.js"></script>
+
             </div>
 
         </div>

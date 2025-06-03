@@ -1,0 +1,96 @@
+:root {
+
+	/* cores */
+    --lilas_escuro: #272744;
+	--lilas_medio: #494d7e;
+	--lilas_claro: #8b6d9c;
+    --rosa_claro: #c69fa5;
+	--base_media: #f2d3ab;
+	--base_claro: #fbf5ef;
+
+	--largura-paragrafo: 50vw;
+
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2vh;
+	padding-bottom: 14vh;
+}
+
+form label {
+	color: var(--lilas_medio);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
+
+	margin-top: 10pt;
+}
+
+form input {
+	color: var(--base_claro);
+	background-color: var(--lilas_claro);
+
+	height: 22pt;
+	width: 25vw;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+
+	border-radius: 4pt;
+	border: solid var(--lilas_escuro);
+
+	box-shadow: none;
+	text-decoration: none;
+	text-shadow: none;
+	outline: none;
+
+	margin: 8pt;
+
+	transition: ease-in-out .1s;
+}
+
+form input::placeholder {
+	color: var(--base_claro);
+	font-weight: normal;
+	opacity: 1;
+}
+
+form input:hover {
+	scale: 1.02;
+}
+
+form input:focus {
+	scale: 1.05;
+}
+
+.send-input-button {
+    all: unset; /* Remove estilos padrão */
+    display: inline-block; /* Torna o botão similar a um input */
+    height: 30pt;
+    width: 25vw;
+    background-color: var(--lilas_claro);
+    color: var(--base_claro);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    border: solid var(--lilas_escuro);
+    border-radius: 4pt;
+    transition: ease-in-out 0.1s;
+    cursor: pointer;
+}
+
+.send-input-button:hover {
+    scale: 1.1;
+    background-color: var(--rosa_claro);
+    color: var(--base_claro);
+}
+
+.custom-spacing {
+    margin-top: 1vh; /* Espaçamento entre os botões */
+}
